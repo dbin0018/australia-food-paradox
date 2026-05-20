@@ -1,0 +1,9 @@
+[
+  { "company": "McDonald's",             "share": 19.2 },
+  { "company": "Competitive Foods",      "share": 9.1  },
+  { "company": "Yum! Restaurants",       "share": 8.8  },
+  { "company": "Collins Foods",          "share": 4.4  },
+  { "company": "Domino's",              "share": 4.1  },
+  { "company": "PAGAC",                  "share": 3.6  },
+  { "company": "Subway",                 "share": 3.3  }
+]

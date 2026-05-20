@@ -1,0 +1,20 @@
+[
+  { "year": "2015-16", "category": "Fast Food & Takeaway", "revenue": 26200.6 },
+  { "year": "2015-16", "category": "Online Delivery",      "revenue": 156.0   },
+  { "year": "2016-17", "category": "Fast Food & Takeaway", "revenue": 27368.3 },
+  { "year": "2016-17", "category": "Online Delivery",      "revenue": 315.4   },
+  { "year": "2017-18", "category": "Fast Food & Takeaway", "revenue": 27061.6 },
+  { "year": "2017-18", "category": "Online Delivery",      "revenue": 485.3   },
+  { "year": "2018-19", "category": "Fast Food & Takeaway", "revenue": 27031.3 },
+  { "year": "2018-19", "category": "Online Delivery",      "revenue": 649.2   },
+  { "year": "2019-20", "category": "Fast Food & Takeaway", "revenue": 26213.0 },
+  { "year": "2019-20", "category": "Online Delivery",      "revenue": 1185.1  },
+  { "year": "2020-21", "category": "Fast Food & Takeaway", "revenue": 27727.2 },
+  { "year": "2020-21", "category": "Online Delivery",      "revenue": 1863.0  },
+  { "year": "2021-22", "category": "Fast Food & Takeaway", "revenue": 26803.0 },
+  { "year": "2021-22", "category": "Online Delivery",      "revenue": 1818.8  },
+  { "year": "2022-23", "category": "Fast Food & Takeaway", "revenue": 28760.4 },
+  { "year": "2022-23", "category": "Online Delivery",      "revenue": 1849.3  },
+  { "year": "2023-24", "category": "Fast Food & Takeaway", "revenue": 29286.0 },
+  { "year": "2023-24", "category": "Online Delivery",      "revenue": 1692.9  }
+]

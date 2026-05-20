@@ -1,0 +1,10 @@
+[
+  { "state": "New South Wales",             "enterprises": 8494, "enterprise_pct": 30.1, "population_pct": 31.2, "diff": -1.1 },
+  { "state": "Victoria",                    "enterprises": 7422, "enterprise_pct": 26.3, "population_pct": 25.7, "diff": 0.6 },
+  { "state": "Queensland",                  "enterprises": 5728, "enterprise_pct": 20.3, "population_pct": 20.6, "diff": -0.3 },
+  { "state": "Western Australia",           "enterprises": 3132, "enterprise_pct": 11.1, "population_pct": 10.8, "diff": 0.3 },
+  { "state": "South Australia",             "enterprises": 2004, "enterprise_pct": 7.1,  "population_pct": 6.9,  "diff": 0.2 },
+  { "state": "Tasmania",                    "enterprises": 621,  "enterprise_pct": 2.2,  "population_pct": 2.1,  "diff": 0.1 },
+  { "state": "Australian Capital Territory","enterprises": 536,  "enterprise_pct": 1.9,  "population_pct": 1.7,  "diff": 0.2 },
+  { "state": "Northern Territory",          "enterprises": 282,  "enterprise_pct": 1.0,  "population_pct": 0.9,  "diff": 0.1 }
+]
