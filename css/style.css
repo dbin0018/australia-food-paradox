@@ -1,0 +1,142 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap');
+
+/* TOKENS */
+:root {
+  --bg:        #f5f0e8;
+  --bg2:       #ede8df;
+  --card:      #ffffff;
+  --border:    rgba(0, 0, 0, 0.08);
+  --text:      #1a1814;
+  --muted:     #7a7670;
+  --accent:    #d94f2b;
+  --health:    #2e8b57;
+  --gold:      #c4922a;
+  --ff-head:   'Playfair Display', Georgia, serif;
+  --ff-body:   'DM Sans', sans-serif;
+  --radius:    12px;
+  --max-width: 1060px;
+}
+
+/* RESET */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--ff-body);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+/* LAYOUT WRAPPER */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* HERO */
+#hero {
+  padding: 80px 0 64px;
+  border-bottom: 1px solid var(--border);
+}
+
+#hero h1 {
+  font-family: var(--ff-head);
+  font-size: clamp(40px, 6vw, 72px);
+  font-weight: 700;
+  line-height: 1.08;
+  color: var(--text);
+  max-width: 760px;
+  margin-bottom: 12px;
+}
+
+#hero h1 span {
+  color: var(--accent);
+  font-style: italic;
+}
+
+.hero-sub {
+  font-size: 18px;
+  color: var(--muted);
+  max-width: 560px;
+  margin-bottom: 32px;
+}
+
+.hero-meta {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* SECTIONS */
+section {
+  padding: 72px 0 0;
+}
+
+.section-label {
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+section h2 {
+  font-family: var(--ff-head);
+  font-size: clamp(26px, 4vw, 42px);
+  font-weight: 700;
+  line-height: 1.15;
+  max-width: 680px;
+  margin-bottom: 14px;
+}
+
+section h2 em {
+  color: var(--accent);
+  font-style: italic;
+}
+
+.section-intro {
+  font-size: 15px;
+  color: var(--muted);
+  max-width: 600px;
+  line-height: 1.75;
+  margin-bottom: 40px;
+}
+
+/* DIVIDER */
+.divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin-top: 72px;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 80px;
+  padding: 32px 0 48px;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 2;
+}
+
+footer strong {
+  color: var(--text);
+  font-weight: 500;
+}
+
+footer a {
+  color: var(--muted);
+  text-decoration: underline;
+}
